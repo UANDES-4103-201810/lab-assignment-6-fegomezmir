@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
 
   def current_user
 	#complete this method
+    @user.self.id
   end
 
   def is_user_logged_in?
